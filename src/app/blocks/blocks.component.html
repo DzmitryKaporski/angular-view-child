@@ -1,0 +1,9 @@
+<div>Main block</div>
+<div class="blocks">
+  <button (click)="showBlock()" class="button">Show №1/ Hide№1</button>
+  <!-- @ViewChild - при его помощи мы можем получить доступ к первому дочернему элементу из родительского -->
+  <!-- @ViewChildren - получаем коллекцию элементов, в которой при помощи id можем получить нужный элемент  (lesson 32 check point: 1:30:14 ) -->
+  <app-block-item>Block item №1</app-block-item>
+  <app-block-item>Block item №2</app-block-item>
+  <app-block-item>Block item №3</app-block-item>
+</div>
